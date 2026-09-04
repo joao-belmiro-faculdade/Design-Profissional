@@ -16,3 +16,12 @@ esta liberada ou bloqueada.
 
 Executa a verificacao de nivel e, se aprovada, repassa a chamada para o
 cargo build.
+
+## Flags globais
+
+| Flag        | Descricao                                      | Padrao |
+| ----------- | ---------------------------------------------- | ------ |
+| --limite N  | Sobrescreve o limite minimo em mg/L            | 51     |
+| --sem-cache | Ignora a ultima leitura e forca nova consulta  | off    |
+| --json      | Retorna a saida em JSON em vez de texto        | off    |
+| --verbose   | Exibe os dados brutos recebidos do smartwatch  | off    |
