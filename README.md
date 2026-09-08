@@ -19,3 +19,8 @@ Uso:
 
 ```bash
 cargo run -- --turbo
+
+## Verificacao de cafeina
+
+A Cafeina CLI verifica o nivel de cafeina antes de liberar a compilacao.
+Caso o nivel esteja abaixo do limite configurado, a ferramenta bloqueia a build.
